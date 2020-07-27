@@ -1,36 +1,57 @@
-# API em node.js e banco Postgres
+# Node.js API and Postgres database
 
-# Configurando o banco
-  1- Acesse o link: https://www.enterprisedb.com/postgresql-tutorial-resources-training?cid=55 , para fazer o download da versão 11.8 do PostgreSQL Database;
+## Setting databse
+  1- Access https://www.enterprisedb.com/postgresql-tutorial-resources-training?cid=55 , to download 11.8 version of PostgreSQL Database;
   
-  2- Execute o arquivo como administrador;
+  2- Open the installer as administrator;
   
-  3- Dê next;
+  3- Click next;
   
-  4- Dê next;
+  4- Click next;
   
-  5- Neste passo caso deseje pode desmarcar a opção pgAdmin 4(Interface gráfica de gerênciamento do Postgres );
+  5- On this step you can uncheck pgAdmin 4(Graphic Interface of Psostgres Manager ) if you don't want it;
   
-  6- Selecione o diretório desejado e dê next;
+  6- Select the wanted directory and click next;
   
-  7- A aplicação espera que o a senha do usuário postgres seja admin, então digite admin como senha e dê next;
+  7- This application expects postgres user password as `admin`, so type it and click next;
   
-  8- A porta que vai ser usada pelo banco de dados, não altere e dê next;
+  8- Here we have database port, don't change it and click next;
   
-  9- Dê next;
+  9- Click next;
   
-  10- Dê next;
+  10- Click next;
   
-  11- Desmarque o checkbox e dê Finish.
+  11- Uncheck the checkbox and click Finish.
   
-# Configurando API node
-  1- Faça o clone do repositório;
+## Installing Node.js
+  1- Access https://nodejs.org/en/ and download the LTS version;
   
-  2- Abra o cmd e navegue até o diretório onde foi feito o clone do repositório;
+  2- Open the installer;
   
-  3- Execute o comando "npm install";
+  3- Click next;
   
-  4- Para iniciar a api use o comando "npm start".
+  4- Click terms checkbox and then next;
+  
+  5- Click next;
+  
+  6- Click next;
+  
+  7- Click next;
+  
+  8- Click Install;
+  
+  9- Click Finish;
+  
+  10-Just to be safe open cmd and type `node -v`, this should print installed node.js version.
+  
+## Configurando API node
+  1- Clone the repository;
+  
+  2- Open cmd and navigate to directory where the repository was cloned;
+  
+  3- Execute the command "npm install";
+  
+  4- To start api use the command "npm start".
   
 
 
