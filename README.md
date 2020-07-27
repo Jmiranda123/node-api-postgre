@@ -2,6 +2,7 @@
 
 # Configurando o banco
   1- Acesse o link: https://www.enterprisedb.com/postgresql-tutorial-resources-training?cid=55 , para fazer o download da versão 11.8 do PostgreSQL Database;
+  
   2- Execute o arquivo como administrador;
   3- Dê next;
   4- Dê next;
